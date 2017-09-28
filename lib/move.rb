@@ -12,7 +12,7 @@ def input_to_index(input)
 end
 
 def move(boardarray, index, character = "X")
+  boardarray[input_to_index(index)] = " #{character} "
 
-  
   return boardarray
 end
